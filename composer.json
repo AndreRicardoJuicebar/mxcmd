@@ -1,0 +1,20 @@
+{
+    "name": "elegance/mxcmd",
+    "description": "Abre um projeto Elegance para acesso via terminal",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "André Ricardo",
+            "email": "contatoadmx@gamil.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "class/"
+        }
+    },
+    "require": {
+        "elegance/core": "dev-main"
+    },
+    "minimum-stability": "dev"
+}
