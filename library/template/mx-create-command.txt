@@ -1,0 +1,13 @@
+[#PHP]
+
+namespace [#namespace];
+
+use Elegance\MxCmd;
+
+abstract class [#class] extends MxCmd
+{
+    protected static function execute()
+    {
+        MxCmd::show('Comando [[#]] funcionando','[#name]');
+    }
+}

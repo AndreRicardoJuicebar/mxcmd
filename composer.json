@@ -11,7 +11,10 @@
     "autoload": {
         "psr-4": {
             "": "class/"
-        }
+        },
+        "files": [
+            "helper/script/env.php"
+        ]
     },
     "require": {
         "elegance/core": "dev-main"
