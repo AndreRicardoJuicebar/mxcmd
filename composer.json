@@ -18,7 +18,6 @@
         ]
     },
     "require": {
-        "elegance/core": "dev-main"
-    },
-    "minimum-stability": "dev"
+        "elegance/core": "^1.0"
+    }
 }
