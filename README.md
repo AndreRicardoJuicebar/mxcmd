@@ -11,7 +11,7 @@ Abre um projeto Elegance para acesso via terminal
 ### [Documentação](https://github.com/elegancephp/mxcmd/tree/main/.doc)
 
  - [helper](https://github.com/elegancephp/mxcmd/tree/main/.doc/helper)
-    - [env](https://github.com/elegancephp/mxcmd/tree/main/.doc/helper/env.md)
+    - [config](https://github.com/elegancephp/mxcmd/tree/main/.doc/helper/config.md)
  
 ---
 

@@ -1,4 +1,4 @@
-### Helper Env
+### Helper config
 
 **PATH_CLASS**: Diretório de classe para autoload
 
