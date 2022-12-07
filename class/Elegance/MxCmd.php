@@ -27,7 +27,7 @@ abstract class MxCmd
                 $class = array_map(fn ($value) => ucfirst($value), $class);
                 $class[] = "Mx" . array_pop($class);
                 $class = implode('\\', $class);
-                $class = "\\Command\\$class";
+                $class = "\\Terminal\\$class";
 
                 if (!class_exists($class))
                     throw new Exception("Comando [$command] não encontrado");

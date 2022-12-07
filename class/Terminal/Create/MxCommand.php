@@ -1,6 +1,6 @@
 <?php
 
-namespace Command\Create;
+namespace Terminal\Create;
 
 use Elegance\File;
 use Elegance\Import;
@@ -21,7 +21,7 @@ abstract class MxCommand extends MxCmd
         $class = "Mx" . array_pop($tmp);
 
         $namespace = implode('\\', $tmp);
-        $namespace = trim("Command\\$namespace", '\\');
+        $namespace = trim("Terminal\\$namespace", '\\');
 
         $filePath = path(
             env('PATH_CLASS'),
