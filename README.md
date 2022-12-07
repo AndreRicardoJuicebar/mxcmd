@@ -5,7 +5,14 @@ Abre um projeto Elegance para acesso via terminal
     composer require elegance/mxcmd
     
     php ./vendor/elegance/mxcmd/install
-    
+
+---
+
+### [Documentação](https://github.com/elegancephp/mxcmd/tree/main/.doc)
+
+ - [helper](https://github.com/elegancephp/mxcmd/tree/main/.doc/helper)
+    - [env](https://github.com/elegancephp/mxcmd/tree/main/.doc/helper/env.md)
+ 
 ---
 
 ### Testando
