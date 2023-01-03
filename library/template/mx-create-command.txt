@@ -8,6 +8,6 @@ abstract class [#class] extends MxCmd
 {
     protected static function execute()
     {
-        MxCmd::show('Comando [[#]] funcionando','[#name]');
+        self::show('Comando [[#]] funcionando','[#name]');
     }
 }

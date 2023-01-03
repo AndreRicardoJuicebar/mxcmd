@@ -29,16 +29,16 @@ abstract class MxComposer extends MxCmd
 
         jsonFile('composer', $composer, false);
 
-        MxCmd::show('Arquivo [composer.json] atualizado');
+        self::show('Arquivo [composer.json] atualizado');
 
         self::update();
     }
 
     protected static function update()
     {
-        MxCmd::show('------------------------------------------------------------');
+        self::show('------------------------------------------------------------');
         echo shell_exec("composer update");
-        MxCmd::show('------------------------------------------------------------');
+        self::show('------------------------------------------------------------');
     }
 
     protected static function seek_for_file($ref)

@@ -11,6 +11,7 @@ Abre um projeto Elegance para acesso via terminal
 ### [Documentação](https://github.com/elegancephp/mxcmd/tree/main/.doc)
 
  - [helper](https://github.com/elegancephp/mxcmd/tree/main/.doc/helper)
+    - [commands](https://github.com/elegancephp/mxcmd/tree/main/.doc/helper/commands.md)
     - [config](https://github.com/elegancephp/mxcmd/tree/main/.doc/helper/config.md)
  
 ---
@@ -55,21 +56,3 @@ Para um comando funcionar corretamente, crie uma classe com o prefixo **Mx** den
 > Você pode criar uma comando automáticamente utilizando o comando **mx create.command**
 
     mx create.command CommandName
-
-### Comandos
-
-**composer**: Atualiza o autoload e as dependencias do projeto
-
-    php mx composer
-
----
-
-**logo**: Mostra a logo do Mx-cmd (chamado por padrão)
-
-    php mx logo
-
----
-
-**create command**: Cria um arquivo de comando dentro do namespace **Command**
-
-    php mx create.command [nomeDoArquivo]

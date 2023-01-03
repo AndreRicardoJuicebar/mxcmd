@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "": "class/"
+            "": "source/"
         },
         "files": [
             "helper/constant/is_terminal.php",
@@ -18,6 +18,6 @@
         ]
     },
     "require": {
-        "elegance/core": "^1.0"
+        "elegance/core": "^2.0"
     }
 }
